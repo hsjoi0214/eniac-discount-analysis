@@ -1,10 +1,9 @@
 # **Eniac Sales Optimization via Strategic Discounts**
 
-## **Purpose**
 
+## **Purpose**
 As part of Eniac’s ongoing effort to boost revenue through data-driven strategies, this project explores the **impact of discounts and product categorization on sales performance**. With a total revenue of **€7.8M** and strong seasonal spikes in demand, the goal is to develop a **discounting and product segmentation framework** that enhances sales performance without eroding margins.
 
-![Eniac Brazil Market Expansion](/assets/brazil_market.png)
 
 ### **Problem Statement:**
 Eniac has observed fluctuations in sales that align more with seasonal events than with its discounting strategy. This raised the need to evaluate:
@@ -12,6 +11,7 @@ Eniac has observed fluctuations in sales that align more with seasonal events th
 - How effective discounts are across different product types and price segments.
 - Whether categorization by product type or price basket yields better strategic insight.
 - How to structure data pipelines to monitor and optimize performance.
+
 
 ### **Solution:**
 This analysis utilized sales data to:
@@ -30,13 +30,12 @@ This project evaluates Eniac’s discount strategy and categorization approaches
 
 
 ## **Data Analysis & Findings**
-
 ### **1. Sales Performance by Price Basket**
   - Top 3 price baskets (Mid-range, Upper Mid-range, Premium) generated **~€6.2M**, about **79%** of total revenue.
   - Basket 4 (Upper Mid-range) alone generated **~€2.6M**, accounting for **31.6%** of total revenue.
   - Combined average discount for top baskets was around **17.0%**. 
 
-  ![](/assets/tech_market_share.png)
+  ![](/assets/Total_Revenue_Per_Price_Basket.png)
 
 
 ### **2. Sales Performance by Product Type**
@@ -44,7 +43,7 @@ This project evaluates Eniac’s discount strategy and categorization approaches
     - Higher responsiveness to discounts in some categories (e.g., accessories).
     - Others (e.g., laptops) showed volume stability independent of discounting.
 
-  ![](/assets/seasonal_delivery_performance.png)
+  ![](/assets/Total_Revenue_Per_ProductType.png)
 
 
 ### **3.  Impact of Seasonality**
@@ -52,7 +51,7 @@ This project evaluates Eniac’s discount strategy and categorization approaches
   - **Overall discounts showed limited effect** on revenue increases — external events were primary drivers.
   - However, within specific product categories, **targeted discounting drove high volumes**.
 
-  ![](/assets/delivery_delayed_states.png)
+  ![](/assets/Impact_on_season.png)
 
 
 ### **4. Correlation Analysis**
@@ -62,7 +61,7 @@ To understand interdependencies between discount levels, product categories, sea
   - Discount percentage shows a moderate correlation with sales volume but not with total revenue, suggesting discounts may be attracting buyers but not necessarily maximizing earnings.
   - Product type categories show distinct correlation patterns with revenue and discounts, reinforcing the value of segmentation.
 
-  ![](/assets/delivery_and_ratings.png)
+  ![](/assets/corelation.png)
 
 This analysis supports the need for targeted discount strategies rather than blanket promotions, emphasizing the role of category-specific behavior in strategic planning.
 
@@ -141,7 +140,7 @@ This analysis supports the need for targeted discount strategies rather than bla
 
 ## **Acknowledgements**
 
-Thanks to our stakeholders and mentors for supporting the initiative and contributing to the refinement of discounting strategy and analytics pipeline.
+Thanks to my mentors for supporting the initiative and contributing to the refinement of discounting strategy and analytics pipeline.
 
 
 

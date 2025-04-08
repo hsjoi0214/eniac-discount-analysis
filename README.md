@@ -31,6 +31,7 @@ This project evaluates Eniac’s discount strategy and categorization approaches
 
 ## **Data Analysis & Findings**
 ### **1. Sales Performance by Price Basket**
+  - All the products which were sold were grouped into different price baskets for effective categorization of products. 
   - Top 3 price baskets (Mid-range, Upper Mid-range, Premium) generated **~€6.2M**, about **79%** of total revenue.
   - Basket 4 (Upper Mid-range) alone generated **~€2.6M**, accounting for **31.6%** of total revenue.
   - Combined average discount for top baskets was around **17.0%**. 
@@ -39,7 +40,7 @@ This project evaluates Eniac’s discount strategy and categorization approaches
 
 
 ### **2. Sales Performance by Product Type**
-  - **Categorizing by product type revealed patterns like:**
+  - **Categorizing sold products based on product type revealed patterns like:**
     - Higher responsiveness to discounts in some categories (e.g., accessories).
     - Others (e.g., laptops) showed volume stability independent of discounting.
 

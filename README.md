@@ -1,5 +1,9 @@
 # **Eniac Sales Optimization via Strategic Discounts**
 
+> ## **Note**  
+> This work is part of a data science project using an artificial dataset provided by the project owner.  
+> The goal was to practice extracting insights from data and presenting them in a clear, structured way.  
+
 
 ## **Purpose**
 As part of Eniac’s ongoing effort to boost revenue through data-driven strategies, this project explores the **impact of discounts and product categorization on sales performance**. With a total revenue of **€7.8M** and strong seasonal spikes in demand, the goal is to develop a **discounting and product segmentation framework** that enhances sales performance without eroding margins.

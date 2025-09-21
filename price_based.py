@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 
 # Load CSV files
-orders_df = pd.read_csv("orders_qu.csv")
-orderlines_df = pd.read_csv("orderlines_qu.csv")
-products_df = pd.read_csv("products_qu.csv")
+orders_df = pd.read_csv("data/clean/orders_qu.csv")
+orderlines_df = pd.read_csv("data/clean/orderlines_qu.csv")
+products_df = pd.read_csv("data/clean/products_qu.csv")
 
 # Define price baskets in € (Euros)
 def categorize_price(price):
